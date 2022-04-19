@@ -1,0 +1,13 @@
+body{
+    background-color: #a57575;
+    color: rgb(28, 201, 143);
+    /* font family= tekst type (kommentarer skrives sådan her */
+    /* teksttyper kan findes på google */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    /* Kan også skrives kortere, sådan her: 
+    font: normal 16px Geneva, Tahoma, sans-serif; */
+
+    line-height: 1.6em;
+}
