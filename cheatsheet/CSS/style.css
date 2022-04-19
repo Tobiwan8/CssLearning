@@ -25,5 +25,10 @@ body{
     color: rgb(6, 6, 224);
 
     border-right: 5px red solid;
-    border-left: 5px blue solid;
+    border-left: 5px blue double;
+    border-top:rgb(3, 29, 7) dotted;
+    border-bottom: salmon dashed;
+    border-width: 10px;
+    
+
 }
