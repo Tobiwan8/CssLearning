@@ -4,10 +4,26 @@ body{
     /* font family= tekst type (kommentarer skrives sådan her */
     /* teksttyper kan findes på google */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
+    font-size: 16px; /* px = pixels */
     font-weight: normal;
     /* Kan også skrives kortere, sådan her: 
     font: normal 16px Geneva, Tahoma, sans-serif; */
 
-    line-height: 1.6em;
+    line-height: 1.6em; /*em bruges til at afgøre linjeaftstande */
+    margin:0;
+}
+
+.container
+{
+    width: 80%; /* px kan bruges, men % fungerer bedre */
+    margin:auto;
+}
+
+.box-1
+{
+    background-color: rgb(26, 224, 59);
+    color: rgb(6, 6, 224);
+
+    border-right: 5px red solid;
+    border-left: 5px blue solid;
 }
