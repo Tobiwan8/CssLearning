@@ -99,5 +99,5 @@ a:active
 {
     padding-bottom: 6px;
     border-bottom:dotted 1px;
-    list-style-image: url('../billeder/check.png');
+    /*virker ikke: list-style-image: url('../billeder/check.png'); */
 }
