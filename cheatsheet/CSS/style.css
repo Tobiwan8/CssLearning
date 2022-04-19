@@ -13,6 +13,28 @@ body{
     margin:0;
 }
 
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover
+{
+    color:orange;
+}
+
+a:active
+{
+    color:palegoldenrod;
+}
+
+/*a:visited
+{
+    color:yellow;
+}*/
+
+
 .container
 {
     width: 80%; /* px kan bruges, men % fungerer bedre */
@@ -30,5 +52,52 @@ body{
     border-bottom: salmon dashed;
     border-width: 10px;
     
+    /* hvis alle er ens, som herunder, behøver man ikke at skrive dem alle. Hvis top/bund er ens, og højre/venstre er ens, kan man skrive: padding: 20px 10px */
+    padding:20px;
 
+    margin-top:20px;
+
+}
+
+.box-1 h1
+{
+    font-family: tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+.box-2
+{
+    border: 3px dotted blue;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.categories
+{
+    border: 3px grey solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categories h2
+{
+    text-align: center;
+}
+
+.categories ul
+{
+    padding: 4px;
+    list-style: square;
+}
+
+.categories li
+{
+    padding-bottom: 6px;
+    border-bottom:dotted 1px;
+    list-style-image: url('../billeder/check.png');
 }
