@@ -41,6 +41,18 @@ a:active
     margin:auto;
 }
 
+.button{
+    background-color: aliceblue;
+    color: orange;
+    padding: 10px 15px;
+    border:none;
+}
+
+.button:hover{
+    background-color: orange;
+    color: aliceblue;
+}
+
 .box-1
 {
     background-color: rgb(26, 224, 59);
@@ -92,6 +104,7 @@ a:active
 .categories ul
 {
     padding: 4px;
+    padding-left: 20px;
     list-style: square;
 }
 
@@ -99,5 +112,29 @@ a:active
 {
     padding-bottom: 6px;
     border-bottom:dotted 1px;
-    /*virker ikke: list-style-image: url('../billeder/check.png'); */
+    list-style-image: url('../CSS/billeder/check.png'); 
+}
+.myForm
+{
+    padding:20px
+}
+myForm .form-group
+{
+    padding-bottom: 15px;
+}
+.myForm label
+{
+    display:block;
+}
+.myForm input[type="text"], .myForm textarea{
+    padding:8px;
+    width: 100%;
+}
+
+.block{
+    float:left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
 }
