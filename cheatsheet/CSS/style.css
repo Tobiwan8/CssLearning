@@ -53,6 +53,10 @@ a:active
     color: aliceblue;
 }
 
+.clr{
+    clear:both;
+}
+
 .box-1
 {
     background-color: rgb(26, 224, 59);
@@ -68,8 +72,9 @@ a:active
     padding:20px;
 
     margin-top:20px;
-
 }
+
+
 
 .box-1 h1
 {
@@ -136,5 +141,19 @@ myForm .form-group
     width: 33.3%;
     border: 1px solid #ccc;
     padding: 10px;
+    box-sizing: border-box; /*sørger for at ovenstående kommandoer bliver overholdt inde for rammerne */
+}
+
+#main-block{
+    float:left;
+    width: 70%;
+}
+
+#sidebar{
+    float:right;
+    width: 30%;
+    background-color: aliceblue;
+    color:orange;
+    padding: 15px;
     box-sizing: border-box;
 }
