@@ -157,3 +157,36 @@ myForm .form-group
     padding: 15px;
     box-sizing: border-box;
 }
+
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid white;
+    margin-top: 30px;
+    position:relative; /*sørger for at alt der bliver redigeret i denne boks, bliver inde for boksen */
+    background-image: url('../CSS/billeder/skildpadde.png');
+}
+
+.p-box h1{
+    position:absolute;
+    top: 40px;
+}
+
+.fix-me{
+    position:fixed;
+    top:400px; /*laver en knap, som bliver på skærmen */
+}
+
+.my-list li:first-child{
+    background: red;
+}
+.my-list li:last-child{
+    background: blue;
+}
+.my-list li:nth-child(5){
+    background: yellow;
+}
+
+.my-list li:nth-child(even){
+    background: green;
+}
